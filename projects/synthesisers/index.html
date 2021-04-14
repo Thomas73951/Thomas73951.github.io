@@ -62,6 +62,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#synthesisers" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -472,6 +477,8 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Overview
@@ -550,6 +557,18 @@
           Misc
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../misc/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
           
             
   
@@ -717,15 +736,51 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>Overview</h1>
-                
-                <p>synths yeah! </p>
+                <h1 id="synthesisers">Synthesisers<a class="headerlink" href="#synthesisers" title="Permanent link">&para;</a></h1>
+<p>I'm fascinated by analogue synthesisers. I'm mostly inspired by the likes of <a href="https://www.youtube.com/channel/UCafxR2HWJRmMfSdyZXvZMTw">Look Mum No Computer</a>. I have been making my own analogue synthesiser. It's currently on breadboard (with neat flat wires) and it has:</p>
+<ul>
+<li>2 VCOs (one connected to keyboard, one to sequencer)</li>
+<li>1 filter <ul>
+<li>low pass with resonance and has an envelope generator plugged in to it which biases the cutoff frequency of the filter. </li>
+</ul>
+</li>
+<li>1 envelope generator <ul>
+<li>nothing fancy, it just has attack and release</li>
+</ul>
+</li>
+<li>1 keyboard <ul>
+<li>12 keys (one octave)</li>
+<li>made on stripboard with tactile buttons </li>
+<li>an octave switcher (5 octaves reachable)</li>
+</ul>
+</li>
+<li>speaker and power amp </li>
+</ul>
+<p><br> <br>
+<strong><em>will add progress updates and more information</em></strong></p>
+<p>Main current problem: getting ±15v rails at home is hard without spending a lot of money. </p>
                 
               
               
@@ -750,7 +805,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2021 Thomas Sharratt
+            Copyright &copy; 2021-present Thomas Sharratt
           </div>
         
         <a href="/" rel="noopener">

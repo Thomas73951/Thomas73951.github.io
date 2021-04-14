@@ -62,6 +62,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#ir-camera-trigger" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -547,12 +552,26 @@
             
   
   
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
     
   
   
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
@@ -717,15 +736,34 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>IR Camera Trigger</h1>
-                
-                <p>ir camera trigger</p>
+                <h1 id="ir-camera-trigger">IR camera trigger<a class="headerlink" href="#ir-camera-trigger" title="Permanent link">&para;</a></h1>
+<p><em>This project was done in 2018/2019</em></p>
+<p>This project was born when the app I used to make timelapses on my DSLR was put behind a paywall. So I looked into other options and using an arduino to control an IR LED that tells the camera when to take photos seemed like the best option. </p>
+<p>My main source for this project was from <a href="https://bayesianadventures.wordpress.com/2013/08/09/nikon-ml-l3-ir-remote-hack/">Bayesian Adventures</a>. This covered most of the ground work for getting the arduino to trigger the camera. I then added more functionality with an OLED screen, a menu system and more features. </p>
+<p><br> <br> 
+<em>This project is quite old and therefore the code is a bit of a mess. So the code probably won't be put online and anyway the source linked above has all the information needed to make your own. Mine also uses a AXE133Y OLED which isn't that common.</em></p>
                 
               
               
@@ -750,7 +788,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2021 Thomas Sharratt
+            Copyright &copy; 2021-present Thomas Sharratt
           </div>
         
         <a href="/" rel="noopener">
